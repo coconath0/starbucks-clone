@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: "SoDo Sans Bold",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+    font-size: 14px;
+}
+
+.nav-left svg {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.nav-left div{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.nav-left div:hover, .nav-store:hover  {
+    color: #00754a;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    gap: 20px;
+}
+
+.nav-left > * { /* targeting all the children directly :) */
+    padding: 10px;
+}
+.nav-right > * { /* targeting all the children directly :) */
+    margin: 10px;
+}
+
+.nav-store {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.nav-store svg {
+    width: 10px;
+}
+
+.si, .join {
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #1A1A1A;
+    border-radius: 50PX;
+    padding: 10px 20px 10px 20px;
+}
+
+.si {
+    margin-left: 20px;
+}
+
+.si:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.join {
+    background-color: #1A1A1A;
+    color: #f8f3f3;
+}
+
+.join:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.navbar {
+    box-shadow: 0 1px 3px rgba(0,0,0,.1),0 2px 2px rgba(0,0,0,.06),0 0 2px rgba(0,0,0,.07);
+}
+
+.product {
+    margin-top: 30px;
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.product img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+
+.product-left, .product-right {
+    max-width: 50%;
+    width: 50%;
+}
+
+.product-right {
+    padding:30px 60px;
+}
+
+.product-title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #1e3932;
+    margin: auto;
+}
+
+.product-descrip {
+    font-size: 19px;
+    text-align: center;
+    font-weight: 500;
+    color: #1e3932;
+    line-height: 1.75;
+    padding: 30px 65px 30px 65px;
+}
+
+.si-up {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    max-width: max-content;
+    color: #1e3932;
+    border: 1px solid #1e3932;
+    border-radius: 50PX;
+    padding: 5px 10px;
+    margin: auto;
+}
+
+.si-up:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}

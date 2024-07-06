@@ -67,8 +67,9 @@ body {
 }
 
 .si:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .join {
@@ -79,6 +80,7 @@ body {
 .join:hover {
     background-color: rgba(0, 0, 0, 0.7);
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .navbar {
